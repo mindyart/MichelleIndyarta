@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Michelle Indyarta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Gudea:400,700|Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" href="http://www.michelleindyarta.com/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://www.michelleindyarta.com/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+
+    <nav>
+
+      <a class="logo"href= "#home"> <b> MI </b></a> 
+      <a data-scroll href= "#aboutMe"> About me</a>  
+      <a data-scroll href= "#experience"> Portfolio </a>
+      <a data-scroll href= "#contactMe"> Contact Me</a>
+      <a href= "http://www.michelleindyarta.com/ResumeMichelleIndyarta.pdf" target="_blank"> Resume </a> 
+    </nav>
+
+    <div>
+
+    <header>
+      <h1 id= "home">Michelle Indyarta</h1>
+    </header>
+    
+    <section class="about" id="aboutMe">
+      <div class="aboutMeHeading"> 
+      <h1> About me </h1> </div>
+      <div class="content-wrap">
+      <div class="circular"> </div>
+      <div class="text"> 
+      <p> Michelle is an aspiring Software Developer/ Project Manager/ Personal-Chef/ Fashion Blogger/ Makeup Artist. She never misses an opportunity to take an "Outfit of the Day" selfie and spends her days figuring out what restaurant to try out next. While she's not doing at least one of the things listed above, she's busy teaching herself new programming languages, organizing her day-planner and working on personal projects.</p> </div>
+    </div>
+    </section>
+    
+    <section class="exp" id="experience">
+      <div class="content-wrap2">
+        <h1> Portfolio </h1>
+        <h3> Skill-Set </h3>
+          <div class = "progress1">
+            <progress value="70" max="100"></progress>  <p>  C# </p> 
+            <progress value="75" max="100"> </progress> <p> Excel </p> 
+          </div> 
+          <div class="progress2">
+            <progress value="50" max="100"> </progress> <p>  HTML5 / CSS3 </p>
+            <progress value="60" max="100"> </progress> <p>Project Management </b></p>
+          </div>
+          <div class= "progress3">
+            <progress value="55" max="100">  </progress> <p> WordPress</p>
+            <progress value="55" max="100">  </progress> <p> jQuery</p>
+          </div> 
+           <div class="things"> <h3> Things I've Done </h3>
+            <div class="rectangular"> <a href= "http://www.uwmidsun.com" target="_blank"><img src="images/Midnight_Sun.jpg"></a></div>
+            <div class="text"> 
+            <p> Helvetica VHS readymade fanny pack. Letterpress church-key four dollar toast cornhole. Small batch pug American Apparel taxidermy authentic. Austin tote bag XOXO American Apparel quinoa. Keytar beard retro, paleo fixie small batch Neutra. McSweeney's PBR cliche listicle master cleanse. Pitchfork hella Austin authentic iPhone chambray, salvia meditation cardigan.</p> </div></div>
+          
+    </div>
+    </section>
+
+    <footer>
+      <div class="content-wrap3"  id= "contactMe">
+          <h1> Contact Me </h1>
+          <div class="social-horizontal">
+             <a href="mailto:mkindyar@uwaterloo.ca" target="_blank"><i class="fa fa-envelope-o" title="Email-Me"></i></a>
+             <a href="https://www.linkedin.com/in/michelleindyarta" target="_blank"> <i class="fa fa-linkedin"> </i> </a> 
+             <a href="https://github.com/mindyart" target="_blank"> <i class="fa fa-github-square"> </i> </a>
+           </div>
+          </div>
+          
+
+    </footer>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    $(document).ready(function() {
+  // code to execute here
+     $("nav a").click(function(){
+      $(".active").removeClass("active"); 
+      (this).addClass("active");
+
+
+    });
+    smoothScroll.init();
+   });
+  </script>
+
+  </body>
+</html>
+
+ 
